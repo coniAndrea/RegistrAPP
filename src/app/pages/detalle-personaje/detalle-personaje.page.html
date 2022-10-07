@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{pageTitle}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img [src]="personaje.image" alt="{{personaje.name}}">
+    <ion-card-header>
+      <ion-card-title>{{personaje.name}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-text>
+        <p>{{personaje.Informacion}}<i><a href="{{personaje.Informacion}}" target="_blank"></a></i></p>
+      </ion-text>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>CodigoQR</ion-title>
+    <img class="img-logo" src="../../../assets/img/icon.png" alt="">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <ion-fab vertical="" horizontal="end" slot="">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+      <ion-button (click)="scan()">QR</ion-button>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
